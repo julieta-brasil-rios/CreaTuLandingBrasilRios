@@ -1,0 +1,23 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: rgb(255, 255, 255);
+}
+
+.navbar {
+    display: flex;
+    justify-content:space-evenly;
+}
+
+.containerBanner {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    background-color: rgb(244, 244, 245);
+}
+
+.banner-img {
+    width: 550px;
+    border-radius: 12px;
+}
