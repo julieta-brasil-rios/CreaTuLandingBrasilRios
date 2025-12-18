@@ -7,17 +7,48 @@ body {
 
 .navbar {
     display: flex;
-    justify-content:space-evenly;
+    justify-content:space-between;
+
+}
+.menu {
+    display: flex;
+    text-decoration: none;
+    gap: 40px;
+    justify-content: space-between;
+    width: 600px;
+    list-style: none;
 }
 
 .containerBanner {
     display: flex;
     justify-content: center;
     gap: 40px;
-    background-color: rgb(244, 244, 245);
+    background-color: rgb(213, 213, 216);
+    flex-direction: column;
 }
 
+.banner {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: rgb(250, 241, 241);
+}
 .banner-img {
     width: 550px;
     border-radius: 12px;
+}
+
+.products-grid {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+    padding: 20px 0;
+}
+button{
+    background-color: rgb(227, 243, 243);
+    color: black;
+}
+a {
+    text-decoration: none;
+    color: black;
 }

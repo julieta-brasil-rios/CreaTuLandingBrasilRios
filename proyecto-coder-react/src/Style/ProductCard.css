@@ -1,0 +1,12 @@
+.box-card {
+    display: flex;
+    text-align: center;
+    border:  2px solid blue;
+    justify-content: center;
+
+}
+
+.card {
+    display: flex;
+    border-radius: 10px solid ;
+}
