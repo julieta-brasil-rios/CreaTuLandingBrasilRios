@@ -3,7 +3,9 @@ import { Link } from 'react-router-dom';
 
 
 export default function ProductCard({ product }) {
+
   return (
+    
     <>
       <article className='box-card' >
         <div className='card'>

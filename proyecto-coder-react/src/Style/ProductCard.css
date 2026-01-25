@@ -1,12 +1,11 @@
-.box-card {
-    display: flex;
-    text-align: center;
-    border:  2px solid blue;
-    justify-content: center;
-
+.products-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 4fr));
+  gap: 1.5rem;
+  padding: 1rem;
 }
 
 .card {
     display: flex;
-    border-radius: 10px solid ;
+    border-radius: 15px solid;
 }
